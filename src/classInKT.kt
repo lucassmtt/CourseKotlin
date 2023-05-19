@@ -13,5 +13,4 @@ fun main(){
 
     class CloseRectangle : Rectangle(10, 10)
 
-    for (a : Int = 10,  )
 }
