@@ -1,4 +1,4 @@
-package Destructuring
+package Exercise_05_DestructuringAndSmartCasting
 
 fun main(args: Array<String>){
 
