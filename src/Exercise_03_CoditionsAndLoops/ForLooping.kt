@@ -2,7 +2,7 @@ package Exercise_03_CoditionsAndLoops
 
 fun main(){
 
-    var items = Array(5){i -> (i * 3)}
+    val items = Array(5){i -> (i * 3)}
 
     for (item: Int in items) println(item)
 
@@ -20,7 +20,7 @@ fun main(){
 
     loop@ for (i in 1..100){
         for ( j in 1..100){
-            if (j == 0){
+            if (j == 15){
                 break@loop
             }
         }
