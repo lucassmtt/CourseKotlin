@@ -2,7 +2,7 @@ package Exercise_04_SafeCallOperator
 
 fun main(args: Array<String>){
 
-    var a: Int? = null
+    val a: Int? = null
     println(a?.dec())
 
     println("Error moment...")

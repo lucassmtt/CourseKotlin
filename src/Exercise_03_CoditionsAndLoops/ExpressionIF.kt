@@ -4,21 +4,29 @@ import java.util.Scanner
 
 fun main(){
 
-    val input = Scanner(System.`in`)
-    print("Send the value: ")
-    val firstValue = input.nextInt()
-    print("Send the seccond value: ")
-    val seccondValue = input.nextInt()
+//    val input = Scanner(System.`in`)
+//    print("Send the value: ")
+//    val firstValue = input.nextInt()
+//    print("Send the seccond value: ")
+//    val seccondValue = input.nextInt()
+//
+//    if (firstValue > seccondValue){
+//        println("First value is bigger than the seccond!")
+//    }
+//
+//    else if (firstValue == seccondValue){
+//        println("The values is equal!")
+//    }
+//
+//    else {
+//        println("The second value is bigger!")
+//    }
 
-    if (firstValue > seccondValue){
-        println("First value is bigger than the seccond!")
-    }
+    val number_01: Int = 1;
+    val number_02: Int = 2;
 
-    else if (firstValue == seccondValue){
-        println("The values is equal!")
-    }
+    val biggerValue = if (number_01 > number_02){number_01} else {number_02}
 
-    else {
-        println("The second value is bigger!")
-    }
+
+    println("The bigger value is $biggerValue")
 }
