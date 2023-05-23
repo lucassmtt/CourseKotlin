@@ -25,8 +25,11 @@ fun main(){
     val number_01: Int = 1;
     val number_02: Int = 2;
 
-    val biggerValue = if (number_01 > number_02){number_01} else {number_02}
+    // val biggerValue = if (number_01 > number_02){number_01} else {number_02}
 
+    // or
+
+    val biggerValue = if (number_01 > number_02) number_01 else number_02
 
     println("The bigger value is $biggerValue")
 }
